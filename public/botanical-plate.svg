@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 850" fill="none">
+  <defs><linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#c5b9a7" stop-opacity=".35"/><stop offset="1" stop-color="#745a4d" stop-opacity=".08"/></linearGradient><filter id="blur"><feGaussianBlur stdDeviation="7"/></filter></defs>
+  <rect x="22" y="22" width="556" height="806" rx="2" stroke="#d9d0c1" stroke-opacity=".48"/><rect x="34" y="34" width="532" height="782" fill="url(#wash)" stroke="#d9d0c1" stroke-opacity=".22"/>
+  <path d="M301 732C294 576 319 487 291 349c-18-87-75-131-113-194M304 657c45-100 112-151 168-222M290 499c-70-50-111-104-139-170M298 393c54-44 89-99 111-168" stroke="#d8d1c1" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#d8d1c1" stroke-width="3" fill="#6c7254" fill-opacity=".35">
+    <path d="M209 203c-65-3-80-48-75-77 51-8 82 22 75 77Z"/><path d="M248 279c-56 7-79-25-85-52 44-18 77 3 85 52Z"/><path d="M252 384c-54 1-80-26-88-54 47-18 80 3 88 54Z"/>
+    <path d="M340 518c57-4 85-38 87-71-47-13-79 12-87 71Z"/><path d="M358 595c66 1 98-30 104-65-52-18-91 5-104 65Z"/><path d="M334 392c54-23 69-65 60-95-46 10-65 46-60 95Z"/>
+  </g>
+  <g stroke="#d9d0c1" stroke-width="2" opacity=".8"><circle cx="191" cy="151" r="48"/><circle cx="191" cy="151" r="17"/><path d="m154 120 74 62m0-62-74 62"/><circle cx="467" cy="435" r="42"/><path d="M425 435h84M467 393v84"/></g>
+  <path d="M152 748h298" stroke="#d8d1c1" stroke-opacity=".5"/><text x="300" y="785" fill="#d8d1c1" fill-opacity=".72" font-family="Georgia, serif" font-size="18" text-anchor="middle" letter-spacing="5">STUDY IN MOTION</text>
+</svg>
