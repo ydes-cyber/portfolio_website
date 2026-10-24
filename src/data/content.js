@@ -118,6 +118,20 @@ export const researchInterests = [
   ['Computational modeling', 'Simulation as a careful instrument for asking technical questions.'],
 ]
 
+// A course-deliverable feature. The video was recorded from the real Project 3
+// runtime; the linked assets live in public/videos so they deploy with the site.
+export const project3Feature = {
+  title: 'Forward Kinematics — Fetch in Motion',
+  eyebrow: 'ROB 511 · Project 3',
+  status: 'Coursework demonstration',
+  video: './videos/fetch-fk-choreography.webm',
+  poster: './videos/fetch-fk-choreography-poster.png',
+  choreography: 'home → observe → reach → salute',
+  summary: 'A recorded finite-state-machine choreography driven through a submitted forward-kinematics runtime and displayed in an external Three.js viewer.',
+  detail: 'The runtime publishes one column-major world transform for each Fetch link on /xform_world. The viewer receives those actual TCP messages through a local bridge and applies each matrix directly to an original placeholder link form. The supplied Fetch mesh references were not included in the course kit, so this is a transform visualization—not a reproduction of Fetch mesh geometry.',
+  attribution: 'Fetch robot description © Fetch Robotics, Inc., CC BY-NC-SA 4.0.',
+}
+
 export const skills = [
   ['Programming', ['Python', 'JavaScript', 'C/C++ materials']],
   ['Data & machine learning', ['pandas', 'scikit-learn', 'XGBoost', 'NumPy', 'SciPy']],

@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { createRoot } from 'react-dom/client'
-import { profile, projects, categories, researchInterests, skills } from './data/content'
+import { profile, projects, categories, researchInterests, skills, project3Feature } from './data/content'
 import './styles.css'
 
 const Arrow = () => <span aria-hidden="true">↗</span>
@@ -47,6 +47,11 @@ function App() {
         <div className="featured-grid">{featured.map(project => <ProjectCard key={project.title} project={project} featured />)}</div>
       </section>
 
+      <section className="project-film" id="forward-kinematics" aria-labelledby="film-title">
+        <div className="film-copy"><p className="eyebrow">{project3Feature.eyebrow}</p><h2 id="film-title">{project3Feature.title}</h2><p className="status">{project3Feature.status}</p><p>{project3Feature.summary}</p><p>{project3Feature.detail}</p><p className="choreography">Choreography: <em>{project3Feature.choreography}</em></p><a className="text-link light-link" href={project3Feature.video} download>Download the recorded demonstration <Arrow /></a><p className="attribution">{project3Feature.attribution}</p></div>
+        <div className="film-frame"><video controls preload="metadata" poster={project3Feature.poster} aria-label="Video: Fetch robot forward-kinematics choreography"><source src={project3Feature.video} type="video/webm" />Your browser does not support this video format. <a href={project3Feature.video}>Download the recording.</a></video><p>Viewer: Three.js placeholders positioned from live <code>/xform_world</code> matrices.</p></div>
+      </section>
+
       <section className="gallery section-wrap" aria-labelledby="gallery-title">
         <div className="section-heading"><div><p className="eyebrow">The full catalogue · 02</p><h2 id="gallery-title">Every <em>working note</em></h2></div><p>Filter by area to browse all publicly verifiable work.</p></div>
         <div className="filters" aria-label="Project categories">{['All', ...categories.slice(1)].map(category => <button key={category} onClick={() => setFilter(category)} className={filter === category ? 'active' : ''} aria-pressed={filter === category}>{category}</button>)}</div>
@@ -86,4 +91,3 @@ function App() {
   </>
 }
 createRoot(document.getElementById('root')).render(<App />)
-

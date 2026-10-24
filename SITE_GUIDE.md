@@ -81,7 +81,7 @@ This makes the **source repository**. It does not automatically publish a websit
 
 ## Publish to GitHub Pages (only after you approve it)
 
-After your `portfolio` repository is on GitHub, the simplest reliable route is GitHub Actions Pages deployment. Add a Pages workflow or choose another host such as Netlify/Vercel. Before enabling deployment, confirm every linked project is appropriate for public viewing.
+This project includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml`. After you push `main`, open your repository on GitHub, go to **Settings → Pages**, and choose **GitHub Actions** as the source if GitHub asks you to choose one. Each later push to `main` rebuilds and redeploys the site automatically. Before enabling deployment, confirm every linked project is appropriate for public viewing.
 
 Your stable future public URL will normally be `https://ydes-cyber.github.io/portfolio/`. It is different from the repository URL (`https://github.com/ydes-cyber/portfolio`) and from the local preview URL.
 
