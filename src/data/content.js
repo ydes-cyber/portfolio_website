@@ -123,7 +123,7 @@ export const researchInterests = [
 export const project3Feature = {
   title: 'Forward Kinematics — Fetch in Motion',
   eyebrow: 'ROB 511 · Project 3',
-  status: 'Coursework demonstration',
+  status: 'Technical Demonstration',
   video: './videos/fetch-fk-choreography.webm',
   poster: './videos/fetch-fk-choreography-poster.png',
   choreography: 'home → observe → reach → salute',
