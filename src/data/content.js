@@ -53,8 +53,8 @@ export const projects = [
     sourceLabel: 'Open repository',
   },
   {
-    title: 'Robotics Course Projects', category: 'Robotics', featured: true,
-    status: 'Coursework — confirm sharing permission', year: '2026', tone: 'ink',
+    title: 'Robotics Projects', category: 'Robotics', featured: true,
+    status: 'Robot Motion & Forward Kinematics', year: '2026', tone: 'ink',
     summary: 'A course repository containing assignment specifications, starter materials, and a substantial Python implementation for the Project 2 arm simulation.',
     detail: 'Project 2 includes socket-based runtime code, numerical integration helpers, PID-style control state, inverse-kinematics routines, and 2/3-link dynamics. Project 1 and Project 3 primarily contain specifications and starter material; the Project 3 TODO document explicitly describes work still to be done. Do not link this coursework publicly until course policy and authorship boundaries are confirmed.',
     tech: ['Python', 'Sockets / JSON', 'Numerical integration', 'Robot-arm simulation'],
