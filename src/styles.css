@@ -17,6 +17,14 @@
 .featured-card:first-child{background:linear-gradient(130deg,#f5f0e5,#d9cfc0 60%,#c4b8a8)}.tags li{border-color:color-mix(in srgb,var(--accent) 30%,var(--line));background:rgba(255,255,255,.28)}
 .featured-card .card-ornament{opacity:.68;filter:drop-shadow(0 5px 5px rgba(58,34,27,.22))}
 .research{background:radial-gradient(ellipse at 10% 80%,rgba(106,68,56,.44),transparent 38%),radial-gradient(ellipse at 87% 13%,rgba(166,165,151,.15),transparent 20%),linear-gradient(135deg,#100b08,#302018 58%,#18130f);box-shadow:inset 0 30px 70px rgba(0,0,0,.3)}.research .eyebrow{color:#bcb0a0}.research-lede{color:#cfc4b6}.interest-list span{color:#cf9da3}.interest-list p{color:#c6bdaf}.research-art{filter:drop-shadow(0 14px 20px rgba(0,0,0,.35))}.research-art span{color:#ae7780;text-shadow:0 5px 30px #170d0a}.orbit{box-shadow:0 0 18px rgba(216,207,192,.06)}
-footer{background:radial-gradient(ellipse at 78% 5%,rgba(147,145,132,.17),transparent 26%),linear-gradient(120deg,#1c0e09,#452a20 58%,#21140f);box-shadow:inset 0 18px 45px rgba(0,0,0,.24)}footer .eyebrow{color:#c18f96}.footer-links a{border-bottom-color:#c6c8c3}
+footer {background:radial-gradient(ellipse at 78% 5%, rgba(147,145,132,.17), transparent 26%),linear-gradient(120deg, #1c0e09, #452a20 58%, #21140f);box-shadow: inset 0 18px 45px rgba(0,0,0,.24);}footer .eyebrow {color: #C4A484;}footer h2 {
+  color: #C4A484;
+}
+footer h2 em {
+  color: #F5F2EB;
+}
+.footer-links a {
+  border-bottom-color: #c6c8c3;
+}
 @media(max-width:760px){.site-header nav{display:none}.header-github{font-size:.68rem}.hero{min-height:650px;padding-top:5.5rem}.moon{right:-12%;top:11%;width:65vw}.constellation{display:none}.hero h1{font-size:4.4rem}.hero-caption{font-size:.52rem}.featured-grid,.gallery-grid{grid-template-columns:1fr}.featured-card:first-child{grid-column:auto;padding-right:2rem}.featured-card .card-ornament{right:7%;opacity:.35}.section-heading,.about{display:block}.section-heading>p{margin-top:1rem}.project-film{grid-template-columns:1fr;padding:4rem 1.2rem}.research{grid-template-columns:1fr}.research-art{min-height:260px;order:2}.interest-list>div{grid-template-columns:32px 1fr}.interest-list p{grid-column:2}.skills>div{grid-template-columns:1fr;gap:.1rem}.gallery-grid .project-card{min-height:330px}.site-header{height:65px}.hero{min-height:calc(100vh - 65px)}}
 @media(prefers-reduced-motion:reduce){*,html{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
